@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.guluauto.kf" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>客服</name>
+    <description>
+      咕噜客服客户端
+    </description>
+    <author email="yunhua.xiao@guluauto.com" href="http://guluauto.com">
+      Gulu Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+
+    <icon src="icon.png" />
+    <!--
+    <icon src="icon-ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
+    <icon src="icon-mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
+    <icon src="icon-hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
+    <icon src="icon-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
+    <icon src="icon-xxhdpi.png" gap:platform="android" gap:qualifier="xxhdpi" />
+    <icon src="icon-fr-xxhdpi.png" gap:platform="android" gap:qualifier="fr-xxhdpi" />
+    -->
+
+    <splash src="screen.png" />
+    <!--
+    <gap:splash src="splash-ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
+    <gap:splash src="splash-mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
+    <gap:splash src="splash-hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
+    <gap:splash src="splash-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
+    <gap:splash src="splash-fr-xhdpi.png" gap:platform="android" gap:qualifier="fr-xhdpi" />
+    <gap:splash src="splash-portrait-xxhdpi.png" gap:platform="android" gap:qualifier="port-xxhdpi" />
+    -->
+
+    <preference name="Fullscreen" value="false" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="DisallowOverscroll" value="false"/>
+    <preference name="HideKeyboardFormAccessoryBar" value="true"/>
+    <preference name="android-windowSoftInputMode" value="adjustResize" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="5000" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+</widget>

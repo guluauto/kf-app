@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.guluauto.kf" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="Camera">
+        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="FileTransfer">
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>客服</name>
+    <description>
+      咕噜客服客户端
+    </description>
+    <author email="yunhua.xiao@guluauto.com" href="http://guluauto.com">
+      Gulu Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <icon src="icon.png" />
+    <splash src="screen.png" />
+    <preference name="Fullscreen" value="false" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="HideKeyboardFormAccessoryBar" value="true" />
+    <preference name="android-windowSoftInputMode" value="adjustResize" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="20000" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+</widget>
