@@ -38,6 +38,6 @@
     <preference name="HideKeyboardFormAccessoryBar" value="true" />
     <preference name="android-windowSoftInputMode" value="adjustResize" />
     <preference name="SplashScreen" value="screen" />
-    <preference name="SplashScreenDelay" value="20000" />
+    <preference name="SplashScreenDelay" value="5000" />
     <preference name="SplashMaintainAspectRatio" value="true" />
 </widget>
