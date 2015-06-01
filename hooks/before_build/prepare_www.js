@@ -21,7 +21,7 @@ before_build();
 
 function before_build() {
   console.info('正在下载静态包' + owner +  '/' + projname);
-  var www_tar_gz_url = '"http://d.ifdiu.com/f2e/alpha/' + projname + '?secret=yunhua@926&owner=' + owner + '"';
+  var www_tar_gz_url = '"http://d.ifdiu.com/f2e/alpha/' + projname + '?secret=yunhua@926&owner=' + owner + '&version=' + version + '"';
   var curl_tar_gz = shell.exec(['curl', www_tar_gz_url, '>', gz_name].join(' '));
   if (curl_tar_gz.code !== 0) {
     console.error('下载静态包' + www_tar_gz_url + '失败');
