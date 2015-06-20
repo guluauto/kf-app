@@ -15,7 +15,7 @@ var gz_name = 'www.tar.gz';
 var appjs_path = './www/js/app.js';
 var alpha = /[a-z]+[0-9]*\.ifdiu\.com/g;
 var local = /o\.dp\:[0-9]{2,5}/g;
-var prd = 'c.guluabc.com';
+var prd = 'cs.guluabc.com';
 
 before_build();
 
