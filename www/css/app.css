@@ -7425,6 +7425,9 @@ button.toast-close-button {
   }
 }
 
+body {
+  font-size: 16px;
+}
 .field {
   float: left;
   margin-right: 1em;
