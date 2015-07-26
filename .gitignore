@@ -6,7 +6,7 @@ platforms/android/assets/www/
 www.tar.gz
 
 .idea/
-tester.apk
+kf.apk
 
 # Built application files
 *.apk
