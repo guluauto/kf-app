@@ -11,6 +11,6 @@ cordova build android --debug
 mv hooks/before_build_bak hooks/before_build
 mv hooks/after_build_bak hooks/after_build
 
-cordova run android --debug
+# cordova run android --debug
 scp ./platforms/android/ant-build/MainActivity-debug.apk xyh@guluabc.com:/home/xyh/app-getter/public/kf-pre.apk
 exit
